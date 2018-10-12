@@ -9,8 +9,7 @@ function frameIt(){
 
 function pressIt(){
   $('input#typing').on('keydown',function(e){
-    debugger
-    if(e.key==='G'){
+    if(e.key==='g'){
       alert('You have pressed "G"!')
     }
   })
